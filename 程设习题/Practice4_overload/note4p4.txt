@@ -1,0 +1,16 @@
+4-1
+friend ostream & operator << (ostream &o, const MyString & s)
+friend 주의
+4-2
+유형 강제 전환 방법
+4-3
+<< >> overload
+friend 설정 주의
+4-4
+1.  int **ch;
+2.  ch = new int *[a];
+    for (int i = 0; i < a; i++)
+    {
+        ch[i] = new int [b];
+    }
+3.  int * operator [] (int n)
